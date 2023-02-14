@@ -40,6 +40,5 @@ jobs:
         black . --check
     - name: Run Tests
       run: |
-        cd ..
         cd django_project
         python manage.py test
